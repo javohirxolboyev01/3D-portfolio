@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Portfoliyo</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="imgBx">
+          <img src="../image/IMG_20211204_203351_515.jpg" />
+        </div>
+        <div class="content">
+          <h2>Card One</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+            officiis voluptate iusto exercitationem sit debitis?
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="../image/IMG_20210909_214528_669.jpg" />
+        </div>
+        <div class="content">
+          <h2>Card Two</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+            officiis voluptate iusto exercitationem sit debitis?
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="../image/IMG_20220214_204352_640.jpg" />
+        </div>
+        <div class="content">
+          <h2>Card Three</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+            officiis voluptate iusto exercitationem sit debitis?
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
+  </body>
+</html>
